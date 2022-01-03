@@ -61,8 +61,11 @@ class Animate {
 
 }
 
-const box = new Animate('wrapper');
-box.createBox();
-box.animateBox();
+
+(() => {
+    const box = new Animate('wrapper');
+    box.createBox();
+    box.animateBox();
+})()
 
 
