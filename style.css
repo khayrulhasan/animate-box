@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.box {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
